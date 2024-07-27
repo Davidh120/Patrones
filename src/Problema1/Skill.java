@@ -35,6 +35,8 @@ public class Skill {
         return this.range;
     }
 
+    public void setName(String name) {this.name = name;}
+
     protected Skill clone() {
         return new Skill(this.name, this.damage, this.energyCost, this.cooldown, this.range);
     }

@@ -2,12 +2,12 @@ package com.example.demo.Problema1;
 
 public class Appearance {
     private String color;
-    private String outfir;
+    private String outfit;
     private String hairstyle;
 
-    public Appearance(String color, String outfir, String hairstyle) {
+    public Appearance(String color, String outfit, String hairstyle) {
         this.color = color;
-        this.outfir = outfir;
+        this.outfit = outfit;
         this.hairstyle = hairstyle;
     }
 
@@ -23,8 +23,12 @@ public class Appearance {
         return this.hairstyle;
     }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
+
     protected Appearance clone() {
-        return new Appearance(this.color, this.outfir, this.hairstyle);
+        return new Appearance(this.color, this.outfit, this.hairstyle);
     }
 
 }

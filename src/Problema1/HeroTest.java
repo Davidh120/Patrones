@@ -3,6 +3,7 @@ package com.example.demo.Problema1;
 import java.util.ArrayList;
 
 public class HeroTest {
+
     public static void main(String[] args) {
         // Crear Skilles
         Skill Skill1 = new Skill("Ataque Poderoso", 100, 20, 5, 10);
@@ -28,6 +29,17 @@ public class HeroTest {
         System.out.println("Warrior Original:");
         mostrarHeroInfo(WarriorOriginal);
         
+        System.out.println("\nWarrior Clonado:");
+        mostrarHeroInfo(WarriorClonado);
+
+        WarriorOriginal.setName("Originalll");
+        WarriorOriginal.skills.get(0).setName("Otro");
+        WarriorOriginal.appearance.setColor("Negrito");
+
+        // Mostrar información del Warrior original y del clonado
+        System.out.println("\nWarrior Original:");
+        mostrarHeroInfo(WarriorOriginal);
+
         System.out.println("\nWarrior Clonado:");
         mostrarHeroInfo(WarriorClonado);
     }
