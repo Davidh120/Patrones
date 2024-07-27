@@ -1,10 +1,9 @@
 package Problema4;
 
-public class DeleteCommand implements ICommand{
-    private final TaskManager taskManager;
+public class DeleteCommand extends Command {
 
-    public DeleteCommand(TaskManager taskManager) {
-        this.taskManager = taskManager;
+    protected DeleteCommand(TaskManager taskManager) {
+        super(taskManager);
     }
 
     @Override

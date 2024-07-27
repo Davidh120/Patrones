@@ -5,16 +5,16 @@ public class Main {
         TaskManager taskManager = new TaskManager();
         App app = new App();
 
-        ICommand createTask = new CreateCommand(taskManager);
+        Command createTask = new CreateCommand(taskManager);
         app.executeCommand(createTask);
 
-        ICommand editTask = new EditCommand(taskManager);
+        Command editTask = new EditCommand(taskManager);
         app.executeCommand(editTask);
 
-        ICommand deleteTask = new DeleteCommand(taskManager);
+        Command deleteTask = new DeleteCommand(taskManager);
         app.executeCommand(deleteTask);
 
-        ICommand completeTask = new CompleteCommand(taskManager);
+        Command completeTask = new CompleteCommand(taskManager);
         app.executeCommand(completeTask);
 
         app.undoCommand();

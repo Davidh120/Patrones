@@ -3,13 +3,13 @@ package Problema4;
 import java.util.Stack;
 
 public class CommandHistory {
-    private final Stack<ICommand> history = new Stack<ICommand>();
+    private final Stack<Command> history = new Stack<Command>();
 
-    void push(ICommand command) {
+    void push(Command command) {
         history.push(command);
     }
 
-    ICommand pop(){
+    Command pop(){
         return history.isEmpty() ? null : history.pop();
     }
 }

@@ -1,10 +1,9 @@
 package Problema4;
 
-public class EditCommand implements ICommand{
-    private final TaskManager taskManager;
+public class EditCommand extends Command {
 
-    public  EditCommand(TaskManager taskManager){
-        this.taskManager = taskManager;
+    protected EditCommand(TaskManager taskManager) {
+        super(taskManager);
     }
 
     @Override

@@ -1,10 +1,9 @@
 package Problema4;
 
-public class CompleteCommand implements ICommand{
-    private final TaskManager taskManager;
+public class CompleteCommand extends Command {
 
-    public  CompleteCommand(TaskManager taskManager){
-        this.taskManager = taskManager;
+    protected CompleteCommand(TaskManager taskManager) {
+        super(taskManager);
     }
 
     @Override

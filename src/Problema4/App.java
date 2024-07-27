@@ -1,7 +1,5 @@
 package Problema4;
 
-import java.util.Stack;
-
 public class App {
     CommandHistory commandHistory;
 
@@ -9,13 +7,13 @@ public class App {
         this.commandHistory = new CommandHistory();
     }
 
-    public void executeCommand(ICommand command) {
+    public void executeCommand(Command command) {
         command.execute();
         commandHistory.push(command);
     }
 
     public void undoCommand(){
-        ICommand command = commandHistory.pop();
+        Command command = commandHistory.pop();
         if (command != null)
             command.undo();
     }

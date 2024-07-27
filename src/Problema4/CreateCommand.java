@@ -1,19 +1,18 @@
 package Problema4;
 
-public class CreateCommand implements ICommand{
-    private final TaskManager taskManager;
+public class CreateCommand extends Command {
 
-    public CreateCommand(TaskManager taskManager) {
-        this.taskManager = taskManager;
+    protected CreateCommand(TaskManager taskManager) {
+        super(taskManager);
     }
 
     @Override
     public void execute() {
-        taskManager.createTask();
+        this.taskManager.createTask();
     }
 
     @Override
     public void undo() {
-        taskManager.undoChange();
+        this.taskManager.undoChange();
     }
 }
