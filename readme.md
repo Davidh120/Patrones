@@ -11,7 +11,7 @@
     Solucion:
     Patron Prototype
 
-![prototype](prototype.png)
+![prototype](prototype_pattern.png)
 
 ## Problema 2
     Solucion:
