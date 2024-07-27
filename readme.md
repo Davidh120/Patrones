@@ -11,7 +11,7 @@
     Solucion:
     Patron Prototype
 
-![alt text](https://github.com/[davidh120]/[patrones]/blob/[main]/prototype.png?raw=true)
+![alt text](https://github.com/[davidh120]/[patrones]/blob/[problema4]/prototype.png?raw=true)
 
 ## Problema 2
     Solucion:
