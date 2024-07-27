@@ -11,27 +11,27 @@
     Solucion:
     Patron Prototype
 
-![alt text](https://github.com/[Davidh120]/[patrones]/tree/[problema4]/prototype.png?raw=true)
+![prototype](prototype.png)
 
 ## Problema 2
     Solucion:
     Patron Observer
 
-![alt text](https://github.com/[davidh120]/[patrones]/blob/[main]/command.png?raw=true)
+![prototype](observer.png)
 
 ## Problema 3
     Solucion:
     Patron Template
     
-![alt text](https://github.com/[davidh120]/[patrones]/blob/[main]/template.png?raw=true)
+![prototype](template.png)
 
 ## Problema 4
     Solucion:
     Patron Command
 
-![alt text](https://github.com/[davidh120]/[patrones]/blob/[main]/command.png?raw=true)
+![prototype](command.png)
 ## Problema 5
     Solucion:
-    Patron Observer
+    Patron Decorator
 
-![alt text](https://github.com/[davidh120]/[patrones]/blob/[main]/command.png?raw=true)
+![prototype](decorator.png)
